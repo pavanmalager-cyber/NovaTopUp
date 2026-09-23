@@ -1,0 +1,1 @@
+NovaTopUp updated: player verification backend in /backend; set FREEFIRE_API_KEY only on backend; endpoint /api/player/verify?uid=...&region=IND; animated Name/UID/Level/Likes/Guild card; futuristic motion; Telegram support https://t.me/fxmx0; keep assets/upi-qr.jpg; payment remains demo/static UPI until merchant gateway is connected.
