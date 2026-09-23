@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="theme-color" content="#07090f"><title>NovaTopup | Gaming Top-Up</title>
+<meta name="description" content="NovaTopup futuristic gaming top-up storefront.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="noise"></div><div class="grid-bg"></div><div class="cursor-glow"></div>
+<header class="nav">
+<a class="brand magnetic" href="#"><span class="brand-mark">N</span><span>Nova<span>Topup</span></span></a>
+<nav><a href="#topup">Top-Up</a><a href="#how">How it works</a><a href="#faq">FAQ</a></nav>
+<button class="icon-btn" id="themeBtn" aria-label="Toggle theme">☾</button>
+</header>
+<main>
+<section class="hero">
+<div class="hero-copy reveal">
+<div class="pill"><span class="dot"></span> FAST • UID ONLY • NO PASSWORD</div>
+<h1 class="magnetic-heading" data-magnetic>Power up your<br><span>game account.</span></h1>
+<p>Choose a pack, enter your in-game UID and complete payment by scanning the secure QR code.</p>
+<a href="#topup" class="primary-btn magnetic-btn">Start Top-Up <span>→</span></a>
+</div>
+<div class="hero-art reveal"><div class="orb orb-a"></div><div class="orb orb-b"></div><div class="orbit-ring ring-one"></div><div class="orbit-ring ring-two"></div>
+<div class="hero-card tilt-card"><div class="hero-card-top"><span>LIVE STORE</span><span>● ONLINE</span></div><div class="diamond">◆</div><div class="hero-card-title">DIAMONDS</div><div class="hero-card-sub">Futuristic checkout experience</div><div class="mini-stats"><div><b>UID</b><small>Required</small></div><div><b>QR</b><small>Available</small></div><div><b>SAFE</b><small>No password</small></div></div></div></div>
+</section>
+<section class="promo-row reveal-group"><article class="promo p1 magnetic-card"><span class="promo-kicker">TOP-UP</span><strong class="magnetic-text">Choose your<br>diamond pack.</strong><small>Simple. Fast. Mobile friendly.</small></article><article class="promo p2 magnetic-card"><span class="promo-kicker">PAYMENT</span><strong class="magnetic-text">Scan the QR<br>and pay.</strong><small>Use your preferred UPI app to scan.</small></article><article class="promo p3 magnetic-card"><span class="promo-kicker">SUPPORT</span><strong class="magnetic-text">Need help?<br>We're here.</strong><small>Contact NovaTopup support on Telegram.</small></article></section>
+<section class="section verify" id="topup"><div class="section-heading reveal"><span class="eyebrow">01 / ACCOUNT</span><h2 class="magnetic-heading" data-magnetic>Enter your UID</h2><p>Enter your public in-game UID. No password, OTP or account login is required.</p></div>
+<div class="verify-box reveal"><label for="uid">In-game UID</label><div class="uid-row"><input id="uid" inputmode="numeric" maxlength="20" placeholder="e.g. 1234567890" autocomplete="off"><button class="primary-btn magnetic-btn" id="verifyBtn">Continue <span>→</span></button></div><div class="hint">Your UID is used only to attach the order to the correct game account.</div><div class="verified" id="verified"><div class="verified-icon">✓</div><div class="player-info"><b>UID READY</b><div class="player-grid"><span>UID <strong id="verifiedUid">—</strong></span><span>Status <strong>Ready to order</strong></span></div></div></div><div class="verify-error" id="verifyError"></div></div></section>
+<section class="section" id="store"><div class="section-heading row-head reveal"><div><span class="eyebrow">02 / STORE</span><h2 class="magnetic-heading" data-magnetic>Pick a pack</h2></div><span class="selected-note" id="uidNote">Enter your UID first</span></div><div class="products" id="products"></div></section>
+<section class="section how" id="how"><div class="section-heading reveal"><span class="eyebrow">03 / HOW IT WORKS</span><h2 class="magnetic-heading" data-magnetic>Three quick steps.</h2></div><div class="steps reveal-group"><article class="magnetic-card"><span>01</span><h3>Enter UID</h3><p>Type the public UID shown on your game profile.</p></article><article class="magnetic-card"><span>02</span><h3>Select a pack</h3><p>Choose your diamonds or membership and continue.</p></article><article class="magnetic-card"><span>03</span><h3>Scan & pay</h3><p>Scan the QR code with your UPI app and submit your reference ID.</p></article></div></section>
+<section class="section faq" id="faq"><div class="section-heading reveal"><span class="eyebrow">04 / FAQ</span><h2 class="magnetic-heading" data-magnetic>Questions, answered.</h2></div><div class="faq-list reveal-group"><button class="faq-item magnetic-card"><span>What payment method is available?</span><b>+</b><p>Payment is made by scanning the displayed QR code with your preferred UPI app.</p></button><button class="faq-item magnetic-card"><span>Do I need to share my game password?</span><b>+</b><p>No. NovaTopup only asks for your public UID. Never share your password or OTP.</p></button><button class="faq-item magnetic-card"><span>Does this website verify player data?</span><b>+</b><p>No external player-data API is used in this version. The UID is locally validated and attached to your order.</p></button><button class="faq-item magnetic-card"><span>Is payment automatically verified?</span><b>+</b><p>No. This static storefront records the reference ID you submit. It does not independently verify a bank transaction.</p></button></div></section>
+</main>
+<section class="support-section reveal"><div class="support-card"><div><span class="eyebrow">NEED HELP?</span><h2 class="magnetic-heading" data-magnetic>NovaTopup Support</h2><p>Questions about your UID, order or checkout? Contact support on Telegram.</p></div><a class="primary-btn magnetic-btn" href="https://t.me/fxmx0" target="_blank" rel="noopener">Open Telegram ↗</a></div></section>
+<footer><div class="footer-brand"><span class="brand-mark">N</span><b>NovaTopup</b></div><p>Futuristic gaming storefront • QR payment</p><span>© 2026 NovaTopup</span></footer>
+<div class="modal-backdrop" id="modalBackdrop"><div class="modal" role="dialog" aria-modal="true" aria-labelledby="checkoutTitle"><button class="modal-close" id="closeModal">×</button><span class="eyebrow">CHECKOUT</span><h2 id="checkoutTitle">Complete your order</h2><div class="order-summary"><div><span id="orderProduct">—</span><b id="orderPrice">₹0</b></div><small>UID: <strong id="orderUid">—</strong></small></div>
+<div class="qr-only"><div class="method-card"><div class="method-icon">⌁</div><div><b>Scan to pay</b><span>Open your preferred UPI app and scan this QR code.</span></div></div><div class="qr-wrap"><img src="./assets/upi-qr.jpg" alt="NovaTopup UPI QR code" onerror="this.closest('.qr-wrap').classList.add('qr-error')"><span class="qr-error-text">QR could not be loaded. Make sure assets/upi-qr.jpg is uploaded.</span></div><p class="qr-caption">Scan this QR code with your UPI app.</p><div class="upi-id">UPI ID <b>malager@fam</b></div></div>
+<label class="ref-label" for="refId">Transaction / UTR reference (after payment)</label><input id="refId" class="ref-input" placeholder="Enter reference ID" autocomplete="off"><button class="confirm-btn magnetic-btn" id="confirmBtn">Submit Payment Reference</button><p class="demo-warning">Payment is not automatically verified by this static website.</p></div></div>
+<div class="toast" id="toast"></div><script src="script.js"></script></body></html>
